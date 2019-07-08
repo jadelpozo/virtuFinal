@@ -70,7 +70,7 @@ app.use(myConnection(mysql, {
 app.use(express.urlencoded({ extended: false }));*/
 
 var mysqlConnection = mysql.createConnection({
-  host: 'dbvirt.coxxbjw0iq0i.us-east-1.rds.amazonaws.com',
+  host: 'musicdb.coxxbjw0iq0i.us-east-1.rds.amazonaws.com',
   user: 'devuser',
   password: 'Hola123*',
   port: 3306,
