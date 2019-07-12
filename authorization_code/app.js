@@ -38,13 +38,13 @@ var access_token = "";
 var idUsuario = "";
 
 const s3 = new AWS.S3({
-  accessKeyId: 'AKIAYTJ4SQN4PCQXWIGK',
-  secretAccessKey: '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',
+  accessKeyId: '******',
+  secretAccessKey: '********',
 });
 
 const rekognition = new AWS.Rekognition({
-  accessKeyId: 'AKIAYTJ4SQN4PCQXWIGK',
-  secretAccessKey: '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',
+  accessKeyId: '************',
+  secretAccessKey: '****************',
   region: 'us-east-1'
 });
 
@@ -70,7 +70,7 @@ app.use(myConnection(mysql, {
 app.use(express.urlencoded({ extended: false }));*/
 
 var mysqlConnection = mysql.createConnection({
-  host: 'musicdb.coxxbjw0iq0i.us-east-1.rds.amazonaws.com',
+  host: '**********',
   user: 'devuser',
   password: 'Hola123*',
   port: 3306,
